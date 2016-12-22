@@ -32,7 +32,6 @@ for(var i=0;i<os.networkInterfaces()."VMware Network Adapter VMnet8".length;i++)
 }
 console.log('----------local IP: '+IPv4);
 console.log('----------local host: '+hostName);*/
-
 exports.getIPAdress=function(){
     var interfaces = require('os').networkInterfaces();
     for(var devName in interfaces){
