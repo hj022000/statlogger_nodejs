@@ -7,6 +7,7 @@ var statInfo=require("../com.taomee.sdk/statInfo.js");
 //var statlogger2 = require("../com.taomee.sdk/statLogger2.js");
 //var statlogger2=statlogger;
 var d = new statlogger(18, -1, -1, -1, 1);
+var d2=new statlogger(25,-1,-1,-1,1);
 //
 
 /*var d2 = new statlogger(12, -1, -1, -1, 1);*/
