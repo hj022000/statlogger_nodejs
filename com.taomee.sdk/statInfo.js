@@ -1,8 +1,5 @@
 /**
- * Created by looper on 2016/12/15.
- */
-/**
- * StatInfo 自定义类
+ *  StatInfo 自定义模块
  * @type {StatInfo}
  */
 module.exports = StatInfo;

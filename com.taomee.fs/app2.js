@@ -1,5 +1,5 @@
 /**
- * Created by looper on 2016/12/8.
+ * Created by looper on 2017/01/10.
  */
 var statlogger = require("../com.taomee.sdk/statLogger.js");
 var statInfo=require("../com.taomee.sdk/statInfo.js");

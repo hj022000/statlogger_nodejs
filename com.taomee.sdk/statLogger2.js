@@ -1,5 +1,5 @@
 /**
- * Created by looper on 2016/12/8.
+ * Created by looper on 2017/01/8.
  * 统计NodeJs版本的statlogger的实现
  * shanghai、TAOMEE
  */

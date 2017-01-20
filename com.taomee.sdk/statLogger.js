@@ -1,5 +1,5 @@
 /**
- * Created by looper on 2016/12/8.
+ * Created by looper on 2017/01/01.
  * 统计NodeJs版本的statlogger的实现
  * shanghai、TAOMEE
  */
@@ -816,7 +816,11 @@ StatLogger.prototype.reg_role = function (acct_id, player_id, race, cli_ip, ads_
     var clip = null;
     var basic_info = this.set_basic_info("_newac_", "_newac_", ts, acct_id,
         player_id);
-    var device_info = this.set_device_info(ads_id);
+
+    var device_info=null;
+    if(ads_id.length !=0) {
+        device_info = this.set_device_info(ads_id);
+    }
     var newac_info = "";
     if (cli_ip.length != 0) {
         clip = "\t_cip_=" + cli_ip;

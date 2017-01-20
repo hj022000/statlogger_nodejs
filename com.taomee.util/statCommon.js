@@ -1,5 +1,5 @@
 /**
- * Created by looper on 2016/12/8.
+ * Created by looper on 2017/01/10.
  * TAOMEE sdk公共工具类
  */
 var fs = require("fs");
